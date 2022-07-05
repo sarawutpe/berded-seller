@@ -1,0 +1,19 @@
+### login failed
+POST http://localhost:3000/api/v1/authen/login HTTP/1.1
+Content-Type: application/json
+
+{"username":"admin", "password":"1234"}
+
+### login success
+POST https://berded.in.th/nodeapi/v1/authen/login HTTP/1.1
+Content-Type: application/json
+
+{"username":"molrudee413@gmail.com", "password":"MolrudeePPP*"}
+
+### branch
+GET http://localhost:3000/api/v1/authen/my_branches HTTP/1.1
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InN3Y19ndWlkZUBob3RtYWlsLmNvbSIsInNlbGxlcl9pZCI6IlMwNzU2IiwiaWF0IjoxNjQxMDQ2MjA5LCJleHAiOjE2NDIwNDYyMDksImF1ZCI6Imh0dHBzOi8vYmVyZGVkLmNvLnRoIiwiaXNzIjoiQ29kZU1vYmlsZXMgTHRkIiwic3ViIjoic3VwcG9ydEBiZXJkZWQuY28udGgifQ.2pTuZ3HfnXTTXz6bD7RFzTi5jNrcHUkeHeKct1nuLXeglmK2WB1ZCXpkyiOxqnIqhWe0Yh9bolx0wXm8HVieGZcTe_6Cbe_UB9GjYBY-E7U17SrWt9LLiQKE5CNH8RPKfANh1A4gIXsz6MWNnk1cj_SY9fV6FQqBYLJdAuGZlLM
+
+### selected_branch
+GET http://localhost:3000/api/v1/authen/seleceted_branch HTTP/1.1
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InN3Y19ndWlkZUBob3RtYWlsLmNvbSIsInNlbGxlcl9pZCI6IlMwNzU2IiwiaWF0IjoxNjQxMDQ2MjA5LCJleHAiOjE2NDIwNDYyMDksImF1ZCI6Imh0dHBzOi8vYmVyZGVkLmNvLnRoIiwiaXNzIjoiQ29kZU1vYmlsZXMgTHRkIiwic3ViIjoic3VwcG9ydEBiZXJkZWQuY28udGgifQ.2pTuZ3HfnXTTXz6bD7RFzTi5jNrcHUkeHeKct1nuLXeglmK2WB1ZCXpkyiOxqnIqhWe0Yh9bolx0wXm8HVieGZcTe_6Cbe_UB9GjYBY-E7U17SrWt9LLiQKE5CNH8RPKfANh1A4gIXsz6MWNnk1cj_SY9fV6FQqBYLJdAuGZlLM
